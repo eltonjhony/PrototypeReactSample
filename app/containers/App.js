@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <Router >
-        <Scene key="root">
+        <Scene key="root" hideNavBar>
           <Scene key="DASHBOARD" component={Dashboard} initial />
         </Scene>
       </Router>
